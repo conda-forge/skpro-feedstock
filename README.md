@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@fkiraly](https://github.com/fkiraly/)
+* [@yarnabrina](https://github.com/yarnabrina/)
 

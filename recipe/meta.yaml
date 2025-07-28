@@ -1,5 +1,5 @@
 {% set name = "skpro" %}
-{% set version = "2.9.0" %}
+{% set version = "2.9.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skpro-{{ version }}.tar.gz
-  sha256: efb7bde6f96de43e78d6374c12e8ad4ba52ab7794ceb04a6049e5343efafdfb6
+  sha256: 06ed9c4f2e5446c88019fa1a194caef8404111fae8ac17f89484c3cf47581d2a
 
 build:
   number: 0

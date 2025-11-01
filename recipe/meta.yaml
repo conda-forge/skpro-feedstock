@@ -1,5 +1,5 @@
 {% set name = "skpro" %}
-{% set version = "2.9.4" %}
+{% set version = "2.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skpro-{{ version }}.tar.gz
-  sha256: 22af7815404218181ff78a0f1abe492c2d49d30faedce2231fd1b843e29bdeaa
+  sha256: f15682a0ec5f38769bc0354264415c0ecb98c813295e9e23d027a1ad57bd15d8
 
 build:
   number: 0
@@ -25,8 +25,8 @@ requirements:
     - packaging
     - pandas <2.4.0,>=1.1.0
     - python >={{ python_min }},<3.14
-    - scikit-base <0.13.0,>=0.6.1
-    - scikit-learn <1.7.0,>=0.24.0
+    - scikit-base <0.14.0,>=0.6.1
+    - scikit-learn <1.8.0,>=0.24.0
     - scipy <2.0.0,>=1.2.0
 
 test:
